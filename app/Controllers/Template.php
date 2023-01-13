@@ -9,7 +9,7 @@ class Template extends BaseController
 
     public function index()
     {
-        $session = session();
+        // $session = session();
         $data['web'] = array(
             'page' => 'admin/dashboard.php'
         );
